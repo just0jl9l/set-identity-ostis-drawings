@@ -8,7 +8,7 @@
     margin: 100px auto;
     top: 176px;
     width: 500px;
-    height: 350px;
+    height: 380px;
     text-align: center;
 }
 
@@ -19,4 +19,8 @@
 .button-load-set-identity {
     margin: 5px;
     width: 350px;
+}
+
+div.error{
+	color: red;
 }

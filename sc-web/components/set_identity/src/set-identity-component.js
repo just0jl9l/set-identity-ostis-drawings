@@ -25,6 +25,7 @@ var setIdentityViewerWindow = function(sandbox) {
     var buttonRightParenthesis =  '#set-identity-tools-' + sandbox.container + " #button-right-parenthesis";
     var buttonEq =  '#set-identity-tools-' + sandbox.container + " #button-eq";
     var example = '#set-identity-tools-' + sandbox.container + " #set-identity-example";
+    var error = '#set-identity-tools-' + sandbox.container + " #input-error";
 
     var keynodes = ['ui_set_identity_load_in_memory', 'ui_set_identity_example'];
 
@@ -93,8 +94,8 @@ var setIdentityViewerWindow = function(sandbox) {
                     if (isValidUserString(setIdentityString)) {
                         callGenSetIdentity(convertToReversePolishNotation(setIdentityString));
                     }else{
-            console.log("Wrong input");
-        }
+						$(error).text("Wrong input!");
+					}
                 });
             });
         });

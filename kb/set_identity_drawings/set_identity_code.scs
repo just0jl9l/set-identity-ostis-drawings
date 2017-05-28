@@ -16,7 +16,7 @@ format_set_identity_json
 
 set_identity_code <- ui_external_languages;
 => nrel_main_idtf: 
-	[Создание теоретико множественныx тождеств] 
+	[Создание теоретико-множественныx тождеств] 
 	(* 
 	<- lang_ru;;
 	 *);
